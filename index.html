@@ -5,28 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
     <title>Document</title>
 </head>
 <body>
     <h1>Mouse Events</h1>
     <div class="main">
         <div class="mouse-events">
-            <div class="mouse-events-item">onclick</div> 
-            <div class="mouse-events-item">oncontextmenu</div> 
-            <div class="mouse-events-item">ondblclick</div> 
-            <div class="mouse-events-item">onmousedown</div> 
-            <div class="mouse-events-item">onmouseenter</div> 
-            <div class="mouse-events-item">onmouseleave</div> 
-            <div class="mouse-events-item">onmousemove</div> 
-            <div class="mouse-events-item">onmouseout</div> 
-            <div class="mouse-events-item">onmouseover</div> 
-        <div class="mouse-events-item">onmouseup</div> 
+            <div id="onClick" class="mouse-events-item">onclick</div> 
+            <div id="oncontextmenu" class="mouse-events-item">oncontextmenu</div> 
+            <div id="ondblclick" class="mouse-events-item">ondblclick</div> 
+            <div id="onmousedown" class="mouse-events-item">onmousedown</div> 
+            <div id="onmouseenter" class="mouse-events-item">onmouseenter</div> 
+            <div id="onmouseleave" class="mouse-events-item">onmouseleave</div> 
+            <div id="onmousemove" class="mouse-events-item">onmousemove</div> 
+            <div id="onmouseout" class="mouse-events-item">onmouseout</div> 
+            <div id="onmouseover" class="mouse-events-item">onmouseover</div> 
+            <div id="onmouseup" class="mouse-events-item">onmouseup</div> 
     </div>
     <button 
-    onclick="onClickEvent()"
+    onclick="clickEvent()"
+    ondblclick="dblClickEvent()"
+    oncontextmenu="onContextMenu()"
+    onmousedown="onMouseDown()"
+    onmouseenter="onMouseEnter()"
+    onmouseleave="onMouseLeave()"
+    onmousemove="onMouseMove()"
+    onmouseout="onMouseOut()"
+    onmouseover="onMouseOver()"
+    onmouseup="onMouseUp()"
     id="button"
     class="event-box"></button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

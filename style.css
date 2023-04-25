@@ -10,7 +10,12 @@ body{
     font-family: 'Sigmar', cursive;
     font-size: 30px;
     gap: 100px;
+    background-color: #fcd64d;
     gap: 50px;
+}
+
+h1{
+    color: #33583D;
 }
 
 .main{
@@ -22,7 +27,7 @@ body{
     display:  flex;
     align-items: center;
     gap: 10px;
-    width: 476px;
+    width: 812px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -30,21 +35,23 @@ body{
 .mouse-events-item{
     background-color: white;
     height: 150px;
-    width: 150px;
-    border: 0.4px solid black;
+    width: 250px;
     border-radius: 12px;
+    border: 6px solid #33583D ;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
+    color: #33583D;
+    letter-spacing: 1px;
 }
 
 .event-box{
     background-color: white;
     width: 476px;
-    height: 476px;
+    height: 512px;
     justify-content: center;
-    border: 0.4px solid black;
+    border: 6px solid #33583D;
     border-radius: 12px;
 }
